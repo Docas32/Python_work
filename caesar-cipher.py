@@ -43,10 +43,10 @@ while condition:
     elif direction == 'decode':
         decrypt(text,shift)
         
-    botton = input("Type 'yes' if you want to continue or 'no' to exit " )
-    if botton == 'yes':
+    button = input("Type 'yes' if you want to continue or 'no' to exit " )
+    if button == 'yes':
         condition = True
-    elif botton == 'no':
+    elif button == 'no':
         condition = False
     else:
         condition = False
